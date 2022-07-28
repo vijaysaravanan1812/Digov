@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/ItemList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ItemList"
+        android:layout_centerHorizontal="true"
+      
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:text="Total :">
+
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:layout_margin="10dp"
+        android:text="clear"
+        android:layout_alignParentRight="true"
+        android:elevation="10dp">
+    </Button>
+    <EditText
+        android:id="@+id/Name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_below="@id/clear_button"
+
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <!--edit text for user password-->
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_below="@id/Name"
+
+        android:hint="Enter Phone Number"
+        android:inputType="phone" />
+
+    <!--button to login our new user-->
+    <Button
+        android:id="@+id/Submit"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_below="@id/Phone"
+
+        android:text="Submit"
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

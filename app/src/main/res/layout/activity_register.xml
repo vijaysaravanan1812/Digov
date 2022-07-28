@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+<!--    SignUpHeaderTxt-->
+<!--    SignUpUserNameTxt-->
+<!--    SignUpPhoneNumberTxt-->
+<!--    SignUpNewPasswordTxt-->
+<!--    SignUpConfirmPasswordTxt-->
+<!--    SignUpBtn-->
+
+    <!--text view for heading-->
+    <!--Welcome to Diagov -->
+    <TextView
+        android:id="@+id/SignUpHeaderTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:padding="5dp"
+        android:text="Welcome to Digov"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <!--edit text for user name-->
+    <EditText
+        android:id="@+id/SignUpEmailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpHeaderTxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Email Id"
+        android:inputType="textEmailAddress" />
+
+    <!--edit text for user password-->
+    <EditText
+        android:id="@+id/SignUpNewPasswordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpEmailTxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter New Password"
+        android:inputType="textPassword" />
+
+    !--edit text for user password-->
+    <EditText
+        android:id="@+id/SignUpConfirmPasswordTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpNewPasswordTxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Confirm Password"
+        android:inputType="textPassword" />
+
+    <!--button to login our new user-->
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpConfirmPasswordTxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Sign Up"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/LoginHereTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:padding="5dp"
+        android:layout_below="@id/SignUpBtn"
+        android:text="Login here"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+
+    <!--button to login our new user-->
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginHereTxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>

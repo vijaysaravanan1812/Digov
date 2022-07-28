@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908541410438",
+    "project_id": "digov-28280",
+    "storage_bucket": "digov-28280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908541410438:android:855b7e5e1a2c17ef8da507",
+        "android_client_info": {
+          "package_name": "com.example.digov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908541410438-6mie8ojp8br2r7gjrgbtemcbsu6drnn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAywf9AykweWyg6OQ4ZAtfzbquSxKQh_v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908541410438-6mie8ojp8br2r7gjrgbtemcbsu6drnn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
